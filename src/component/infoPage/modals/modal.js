@@ -23,7 +23,7 @@ export const WebsiteModals = () => {
         </Modal.Header>
         <Modal.Body>
           <div className="websiteImg">
-            Description: A PortFolio website with React Library.
+           <p>Description: A PortFolio website with React Library.</p>
             <img src={websiteImg} />
           </div>
         </Modal.Body>

@@ -12,7 +12,7 @@ export const ProjectCard = () => {
         <div className="project-text">
           <h5>WEBSITE</h5>
           <p>Reactjs</p>
-          <div className="visit-link">
+          <div className="project-link">
             <WebsiteModals />
           </div>
         </div>
@@ -22,7 +22,7 @@ export const ProjectCard = () => {
         <div className="project-text">
           <h6>Burger Shop</h6>
           <p>Reactjs & Redux </p>
-          <div className="visit-link">
+          <div className="project-link">
             <Button variant="secondary">Visit</Button>
           </div>
         </div>

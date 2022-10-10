@@ -1,5 +1,4 @@
 import "../App.css";
-import image from "../social/vibing.png";
 import instaLogo from "../social/instaLogo.png";
 import linkedinLogo from "../social/linkedinLogo.png";
 
@@ -15,7 +14,6 @@ export const Footer = () => {
             i've used Javascript, React.js, Bootstrap and TyperScript. Feel free
             to check my Project.
           </p>
-          <img src={image} />
 
           {/* social Links */}
 

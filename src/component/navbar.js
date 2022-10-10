@@ -3,7 +3,7 @@ import "../App.css";
 
 export const PortfolioNavbar = () => {
   return (
-    <Navbar expand="lg px-4 py-3" bg="dark" variant="dark">
+    <Navbar expand="md px-5 py-3" bg="dark" variant="dark">
       <Navbar.Brand>PortFolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="nav" />
       <Navbar.Collapse id="nav" className="justify-content-end">
