@@ -23,7 +23,13 @@ export const ProjectCard = () => {
           <h6>Burger Shop</h6>
           <p>Reactjs & Redux </p>
           <div className="project-link">
-            <Button variant="secondary">Visit</Button>
+            <Button
+              href="https://fast-food-vercel.vercel.app/"
+              target="_blank"
+              variant="secondary"
+            >
+              Visit
+            </Button>
           </div>
         </div>
       </div>
