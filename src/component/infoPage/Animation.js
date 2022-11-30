@@ -1,23 +1,16 @@
-import javascriptImg from "../../technologyImg/java-script.png";
-import reactjsImg from "../../technologyImg/reactjs.png";
-import photoshopImg from "../../technologyImg/photoshop.png";
-import typescriptImg from "../../technologyImg/typescript.png";
-import studioImg from "../../technologyImg/visualStudio.png";
-import bootstrapImg from "../../technologyImg/bootstrap.png";
-
 export const TextAnimation = () => {
   return (
     <div className="techno-tools">
       <div className="technology">
         <div>
-          <img src={javascriptImg} />
-          <img src={reactjsImg} />
-          <img src={typescriptImg} />
+          <img src="https://i.ibb.co/w7y75KY/java-script.png" />
+          <img src="https://i.ibb.co/pfjSYWq/reactjs.png" alt="reactjs"/>
+          <img src="https://i.ibb.co/GFCX3Tc/typescript.png" alt="typescript"/>
         </div>
         <div>
-          <img src={photoshopImg} />
-          <img src={bootstrapImg} />
-          <img src={studioImg} />
+          <img src="https://i.ibb.co/LrjVpT3/photoshop.png" alt="photoshop" />
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png?w=740&t=st=1669825873~exp=1669826473~hmac=bba8f0f24bb64d7d27749a01dc605a62451cb0cdb4da2f1f6392decf080e29b8" />
+          <img src="https://i.ibb.co/T8jB2p5/visual-Studio.png" alt="visual-Studio" />
         </div>
       </div>
       <div>
@@ -30,12 +23,12 @@ export const TextAnimation = () => {
           </ul>
         </div>
 
-        <h5>Tools</h5>
+        <h5>Other Technologies</h5>
         <div className="tools">
           <ul className="tools-text">
             <li>Visual Studio</li>
             <li>Photoshop</li>
-            <li>Bootstrap</li>
+            <li>Node Js</li>
           </ul>
         </div>
       </div>

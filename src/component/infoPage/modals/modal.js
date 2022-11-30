@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-import websiteImg from "../../../cardImg/website.png";
 import "../../../App.css";
 
 export const WebsiteModals = () => {
@@ -24,7 +23,7 @@ export const WebsiteModals = () => {
         <Modal.Body>
           <div className="websiteImg">
            <p>Description: A PortFolio website with React Library.</p>
-            <img src={websiteImg} />
+            <img src="https://i.ibb.co/MP2Y6cd/website.png" />
           </div>
         </Modal.Body>
         <Modal.Footer>

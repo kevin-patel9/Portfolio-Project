@@ -1,6 +1,4 @@
-import "../App.css";
-import instaLogo from "../social/instaLogo.png";
-import linkedinLogo from "../social/linkedinLogo.png";
+import "../../App.css";
 
 export const Footer = () => {
   return (
@@ -21,13 +19,13 @@ export const Footer = () => {
             <h4>Social Media</h4>
             <div className="links">
               <a href="https://www.instagram.com/kevinpatel3/" target="_blank">
-                <img src={instaLogo} />
+                <img src="https://i.ibb.co/BsyDwmZ/insta-Logo.png" />
               </a>
               <a
                 href="https://www.linkedin.com/in/kevin-patel-83265b174/"
                 target="_blank"
               >
-                <img src={linkedinLogo} />
+                <img src="https://i.ibb.co/rH2X45c/linkedin-Logo.png" alt="linkedin-Logo" />
               </a>
             </div>
           </div>

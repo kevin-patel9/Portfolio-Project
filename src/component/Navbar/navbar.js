@@ -1,5 +1,5 @@
 import { Nav, Navbar } from "react-bootstrap";
-import "../App.css";
+import "../../App.css";
 
 export const PortfolioNavbar = () => {
   return (

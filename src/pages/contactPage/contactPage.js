@@ -1,5 +1,6 @@
 import { Button, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import './contactPage.css'
 
 export const ContactMe = () => {
   return (

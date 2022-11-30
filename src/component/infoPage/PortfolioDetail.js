@@ -1,11 +1,9 @@
 import "../../App.css";
-
-import coderImg from "../../social/coder.png";
-import { ProjectCard } from "./cards";
+import { ProjectCard } from "./projectCard/cards";
 import { TextAnimation } from "./Animation";
 import { Link } from "react-router-dom";
 
-export const MiddleArea = () => {
+export const Details = () => {
   return (
     <div className="info">
       <h1>Hi, I'm Kevin</h1>
@@ -14,7 +12,7 @@ export const MiddleArea = () => {
         <span>I work with Reactjs for Projects</span>
       </div>
 
-      <img src={coderImg} />
+      <img src="https://i.ibb.co/hHNb86Z/coder.png" />
       <p>
         <Link to="/contactUs" className="contact-btn">
           Contact Me
