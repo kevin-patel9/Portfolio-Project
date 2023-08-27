@@ -1,38 +1,24 @@
-import "../../App.css";
+import { Container, Row, Col } from "react-bootstrap";
+import navIcon1 from "../../assets/nav-icon1.svg";
+import navIcon3 from "../../assets/nav-icon3.svg";
+import "./footer.css";
 
-export const Footer = () => {
+const Footer = () => {
   return (
-    <div className="footer">
-      <div className="footer-container">
-        <h4>About Me :</h4>
-        <div className="footer-detail">
-          <p className="footer-text">
-            Got into Coding in 2018, Dived into into seriously during start of
-            2022 and ever since then i've been dedicated to learn more. So far
-            i've used Javascript, React.js, Bootstrap and TyperScript. Feel free
-            to check my Project.
-          </p>
-
-          {/* social Links */}
-
-          <div className="social-links">
-            <h4>Social Media</h4>
-            <div className="links">
-              <a href="https://www.instagram.com/kevinpatel3/" target="_blank">
-                <img src="https://i.ibb.co/BsyDwmZ/insta-Logo.png" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/kevin-patel-83265b174/"
-                target="_blank"
-              >
-                <img src="https://i.ibb.co/rH2X45c/linkedin-Logo.png" alt="linkedin-Logo" />
-              </a>
+    <footer className="footer">
+      <Container>
+        <Row>
+          <Col className="text-center">
+            <div className="social-icon">
+              <a href="#"><img src={navIcon1} alt="Icon" /></a>
+              <a href="#"><img src={navIcon3} alt="Icon" /></a>
             </div>
-          </div>
-        </div>
+            <p>Copyright 2023. All Rights Reserved</p>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
+  )
+}
 
-        <div className="copyright">Copyright 2022 &#169;</div>
-      </div>
-    </div>
-  );
-};
+export default Footer;
