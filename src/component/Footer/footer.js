@@ -10,7 +10,7 @@ const Footer = () => {
         <Row>
           <Col className="text-center">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/kevin-patel9/"><img src={navIcon1} alt="Icon" /></a>
               <a href="#"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright 2023. All Rights Reserved</p>
