@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../../assets/header-img.svg";
 import navIcon1 from '../../assets/nav-icon1.svg';
+import navIcon2 from '../../assets/github.svg';
 import navIcon3 from '../../assets/nav-icon3.svg';
 import "./animated.css";
 import TrackVisibility from "react-on-screen";
@@ -79,6 +80,7 @@ const Details = () => {
                     <div className="social-icon">
                       <a target="_blank" href="https://www.linkedin.com/in/kevin-patel9/"><img src={navIcon1} alt="" /></a>
                       <a href="#"><img src={navIcon3} alt="" /></a>
+                      <a href="https://www.github.com/kevin-patel9/"><img src={navIcon2} alt="Icon" /></a>
                     </div>
                   </span>
                 </div>
